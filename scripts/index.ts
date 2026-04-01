@@ -143,7 +143,7 @@ function assertUUID(value: string, label: string) {
 // Resolve Flowith URL: env override or deployed preview
 async function detectFlowithUrl(): Promise<string> {
 	if (process.env.FLOWITH_URL) return process.env.FLOWITH_URL;
-	return "https://flowith.io";
+	return "https://flowith.io/blank";
 }
 let _flowithUrl: string | null = null;
 async function getFlowithUrl(): Promise<string> {
